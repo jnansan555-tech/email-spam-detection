@@ -30,12 +30,10 @@ python app.py
 
 ## Results
 
-| Metric    | Score  |
-|-----------|--------|
-| Accuracy  | 97.35% |
-| Precision | 96.80% |
-| Recall    | 97.90% |
-| F1-score  | 97.34% |
+Accuracy : 97.69 %
+Precision: 99.07 %
+Recall   : 96.49 %
+F1-score : 97.77 %
 
 ![Model Performance](results.png)
 
@@ -58,3 +56,4 @@ emailspam/
 ├── results.png
 └── .gitignore
 ```
+

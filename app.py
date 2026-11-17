@@ -97,6 +97,7 @@ print("Precision:", round(precision * 100, 2), "%")
 print("Recall   :", round(recall * 100, 2), "%")
 print("F1-score :", round(f1 * 100, 2), "%")
 
+
 plt.bar(metrics, [v * 100 for v in values])
 
 plt.title("Email Spam Detection - Model Performance")
@@ -104,4 +105,5 @@ plt.xlabel("Evaluation Metrics")
 plt.ylabel("Score (%)")
 plt.ylim(0, 100)
 
-plt.show()
+plt.savefig("results.png", dpi=150, bbox_inches="tight", facecolor="white")   # save first
+plt.show()                                                                     # then show
