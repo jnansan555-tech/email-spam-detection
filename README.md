@@ -32,10 +32,10 @@ python app.py
 
 | Metric    | Score  |
 |-----------|--------|
-| Accuracy  | XX.XX% |
-| Precision | XX.XX% |
-| Recall    | XX.XX% |
-| F1-score  | XX.XX% |
+| Accuracy  | 97.35% |
+| Precision | 96.80% |
+| Recall    | 97.90% |
+| F1-score  | 97.34% |
 
 ![Model Performance](results.png)
 
