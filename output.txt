@@ -1,0 +1,32 @@
+Total emails: 83448
+   label                                               text
+0      1  ounce feather bowl hummingbird opec moment ala...
+1      1  wulvob get your medircations online qnb ikud v...
+2      0   computer connection from cnn com wednesday es...
+3      1  university degree obtain a prosperous future m...
+4      0  thanks for all your answers guys i know i shou...
+
+Accuracy: 97.69 %
+
+Confusion Matrix:
+[[7859   79]
+ [ 307 8445]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.96      0.99      0.98      7938
+           1       0.99      0.96      0.98      8752
+
+    accuracy                           0.98     16690
+   macro avg       0.98      0.98      0.98     16690
+weighted avg       0.98      0.98      0.98     16690
+
+
+Email 1: HAM
+Email 2: SPAM
+
+Accuracy : 97.69 %
+Precision: 99.07 %
+Recall   : 96.49 %
+F1-score : 97.77 %
