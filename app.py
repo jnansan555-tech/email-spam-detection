@@ -92,6 +92,11 @@ f1 = f1_score(y_test, y_pred, pos_label=1, zero_division=0)
 metrics = ["Accuracy", "Precision", "Recall", "F1-Score"]
 values = [accuracy, precision, recall, f1]
 
+print("\nAccuracy :", round(accuracy * 100, 2), "%")
+print("Precision:", round(precision * 100, 2), "%")
+print("Recall   :", round(recall * 100, 2), "%")
+print("F1-score :", round(f1 * 100, 2), "%")
+
 plt.bar(metrics, [v * 100 for v in values])
 
 plt.title("Email Spam Detection - Model Performance")
